@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unhealthy Food Habits</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Unhealthy Food Habits</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#impact">Impact on Health</a></li>
+                <li><a href="#tips">Healthy Eating Tips</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Unhealthy Food Habits</h2>
+        <p>Unhealthy food habits are choices that negatively impact your physical and mental well-being. Examples include overeating processed foods, high sugar consumption, and lack of balanced meals. These habits can lead to obesity, heart disease, and other chronic conditions.</p>
+    </section>
+
+    <section id="impact">
+        <h2>Impact on Health</h2>
+        <p>Consuming unhealthy foods regularly can result in:</p>
+        <ul>
+            <li>Weight gain and obesity</li>
+            <li>Increased risk of heart disease</li>
+            <li>Digestive issues</li>
+            <li>Decreased energy levels</li>
+            <li>Weakened immune system</li>
+        </ul>
+    </section>
+
+    <section id="tips">
+        <h2>Healthy Eating Tips</h2>
+        <p>Follow these tips to improve your diet:</p>
+        <ol>
+            <li>Eat more whole foods like fruits and vegetables.</li>
+            <li>Limit processed and sugary foods.</li>
+            <li>Stay hydrated with water.</li>
+            <li>Practice portion control.</li>
+            <li>Make time for regular physical activity.</li>
+        </ol>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For more information, feel free to reach out!</p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Unhealthy Food Habits. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
